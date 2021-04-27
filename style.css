@@ -1,0 +1,57 @@
+body{
+    align-items:center;
+  
+  }
+  .Results{
+    background-color:rgba(255, 255, 255, 0.8);
+    grid-column-start:1;
+    grid-column-end:5;
+    border:1px solid #F3F3F3;
+    padding:30px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+  }
+  
+  .grid-container {
+    
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    grid-gap:10px;
+  }
+  
+  .equal{
+    background-color:#4285F4;
+    color: white;
+  
+  }
+  
+  .idemequal{
+    grid-column-start:3;
+    grid-column-end:5;
+    padding:15px;
+  }
+  
+  .operator{
+    background-color:#DADCE0;
+  }
+  
+  button {
+    border-radius: 5px;
+    background-color:#F1F3F4;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color:white;
+    border: 1px solid #F3F3F3;
+  }
+  .equal:hover{
+    background-color:white;
+    color: #000000;
+  }
