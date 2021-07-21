@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/style.css">
+  <script src="/calc.js"></script>
   <title>Calculadora</title>
 </head>
 
@@ -15,27 +16,27 @@
     <h2>Let's make a Caculator!</h2>
 
     <div class="grid-container">
-      <div class="Results">0</div>
-      <button class="operator">(</button>
-      <button class="operator">)</button>
-      <button class="operator">%</button>
-      <button class="operator">AC</button>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button class="operator">/</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button class="operator">*</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button class="operator">-</button>
-      <button>0</button>
-      <button>.</button>
-      <button class="equal">=</button>
-      <button class="operator">+</button>
+      <div id="resultado" class="Results"></div>
+      <button onclick="insert('(');" class="operator">(</button>
+      <button onclick="insert(')');"class="operator">)</button>
+      <button onclick="back();" class="operator">C</button>
+      <button onclick="clean();" class="operator">AC</button>
+      <button onclick="insert('7');" >7</button>
+      <button onclick="insert('8');" >8</button>
+      <button onclick="insert('9');" >9</button>
+      <button onclick="insert('/');" class="operator">/</button>
+      <button onclick="insert('4');">4</button>
+      <button onclick="insert('5');">5</button>
+      <button onclick="insert('6');" >6</button>
+      <button onclick="insert('*');" class="operator">*</button>
+      <button onclick="insert('1');" >1</button>
+      <button onclick="insert('2');" >2</button>
+      <button onclick="insert('3');">3</button> 
+      <button onclick="insert('-');" class="operator">-</button>
+      <button onclick="insert('0');" >0</button>
+      <button onclick="insert('.');" >.</button>
+      <button onclick="calcular();" class="equal">=</button>
+      <button onclick="insert('+');" class="operator">+</button>
     </div>
   </div>
 </body>
