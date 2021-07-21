@@ -1,7 +1,27 @@
+
 body{
-    align-items:center;
-  
-  }
+  background-color: #f3f3f3;
+}
+
+.calc h1{
+  font-family: 'Lucida Sans', cursive;
+  text-transform: uppercase;
+}
+
+.calc h2{
+  font-family: 'Lucida Sans', cursive;
+}
+
+.calc{
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(133, 158, 179, 0.527);
+}
+
   .Results{
     background-color:rgba(255, 255, 255, 0.8);
     grid-column-start:1;
@@ -12,14 +32,16 @@ body{
     font-size: 30px;
     
   }
-  
+
   .grid-container {
-    
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
     background-color:#FFFFFF;
     padding: 10px;
     grid-gap:10px;
+    width: 640px;
+    margin: 0 auto;
+
   }
   
   .equal{
